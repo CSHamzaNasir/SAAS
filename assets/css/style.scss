@@ -1,0 +1,47 @@
+// $bg-color: aqua;
+// $text-color: red;
+// $border-color: green;
+// $text-size: 20px;
+// $default-width: 200px;
+// $default-padding: 20px;
+// $default-margin: 20px;
+$primary-bg-color: black;
+$primary-main-color: white;
+
+// .navbar {
+//     background-color: $primary-bg-color;
+
+//     .nav-item {
+//         list-style: none;
+//         display: flex;
+//         padding: 23px;
+
+//         .nav-link {
+//             color: $primary-main-color;
+//             text-decoration: none;
+//             margin: 23px;
+//             font-family: Arial, Helvetica, sans-serif;
+//         }
+//     }
+// }
+
+// @import "body_styling";
+
+// @mixin important-text {
+//     color: red;
+//     font-size: 25px;
+//     font-weight: bold;
+//     border: 1px solid blue;
+// }
+
+// .danger {
+//     @include important-text;
+//     background-color: green;
+// }
+
+$width: 100px;
+$padding: 20px;
+
+.element {
+  width: $width + $padding;  
+}

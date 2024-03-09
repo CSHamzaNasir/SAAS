@@ -1,0 +1,10 @@
+body {
+    background-color: $bg-color;
+    h1{
+     color: $text-color;
+     font-size: $text-size;
+     border: 1px solid $border-color;
+     padding: $default-padding;
+     margin: $default-margin;
+    }
+ }
